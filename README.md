@@ -3,7 +3,7 @@ Repository for Deep Learning class in Udacity
 
 [//]: # (Image References)
 
-[image1]: ./images/startdocker.png
+[image1]: ./images/start_docker.PNG
 
 ## Set working environment
 1. Install Docker for Window on local PC
@@ -15,7 +15,7 @@ Repository for Deep Learning class in Udacity
         
         _docker start -ai tensorflow-udacity
 
-![alt text][image1]
+![Start Docker][image1]
 
 5. Open a browser using URL: _http://localhost:8888_
 
