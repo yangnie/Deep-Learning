@@ -26,6 +26,15 @@ Repository for Deep Learning class in Udacity
     
     https://classroom.udacity.com/courses/ud120
     
+7. Add jupyter notebook file in the github.com repository
+
+    File => Download as => Notebook (.ipynb)
+    
+    Copy dowmlorded file to the local repository folder
+    
+    Use _git add <notebook file name>_ to upload the file
+    
+    
 
 
         
