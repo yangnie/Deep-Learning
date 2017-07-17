@@ -1,0 +1,56 @@
+logistic = linear_model.LogisticRegression()
+50 samples LogisticRegression, time taken 0.10s
+valid score: 0.586900 , valid score(clean): 0.572476
+test score: 0.637300 , test score(clean): 0.624986
+100 samples LogisticRegression, time taken 0.12s
+valid score: 0.712400 , valid score(clean): 0.697011
+test score: 0.777900 , test score(clean): 0.763500
+1000 samples LogisticRegression, time taken 2.07s
+valid score: 0.766300 , valid score(clean): 0.750254
+test score: 0.838900 , test score(clean): 0.824870
+5000 samples LogisticRegression, time taken 22.21s
+valid score: 0.776700 , valid score(clean): 0.761309
+test score: 0.851800 , test score(clean): 0.838918
+10000 samples LogisticRegression, time taken 58.23s
+valid score: 0.790500 , valid score(clean): 0.774619
+test score: 0.859700 , test score(clean): 0.846287
+50000 samples LogisticRegression, time taken 405.18s
+valid score: 0.813500 , valid score(clean): 0.799549
+test score: 0.884100 , test score(clean): 0.872539
+
+
+logistic = linear_model.LogisticRegression(C=1e-1, solver="newton-cg")
+50 samples LogisticRegression, time taken 0.17s
+valid score: 0.537000 , valid score(clean): 0.521827
+test score: 0.585400 , test score(clean): 0.571790
+100 samples LogisticRegression, time taken 0.12s
+valid score: 0.684300 , valid score(clean): 0.680993
+test score: 0.744800 , test score(clean): 0.747150
+1000 samples LogisticRegression, time taken 0.85s
+valid score: 0.788100 , valid score(clean): 0.774055
+test score: 0.863000 , test score(clean): 0.850432
+5000 samples LogisticRegression, time taken 5.70s
+valid score: 0.801200 , valid score(clean): 0.787592
+test score: 0.873500 , test score(clean): 0.862176
+50000 samples LogisticRegression, time taken 153.35s
+valid score: 0.818400 , valid score(clean): 0.804963
+test score: 0.890200 , test score(clean): 0.879678
+
+
+
+logistic = linear_model.LogisticRegression(multi_class='multinomial', solver='sag')
+50 samples LogisticRegression, time taken 0.31s
+valid score: 0.584000 , valid score(clean): 0.567851
+test score: 0.633400 , test score(clean): 0.620841
+100 samples LogisticRegression, time taken 0.42s
+valid score: 0.717200 , valid score(clean): 0.701523
+test score: 0.782500 , test score(clean): 0.769142
+1000 samples LogisticRegression, time taken 4.08s
+valid score: 0.777200 , valid score(clean): 0.761985
+test score: 0.845900 , test score(clean): 0.831894
+5000 samples LogisticRegression, time taken 20.95s
+valid score: 0.770800 , valid score(clean): 0.754879
+test score: 0.845000 , test score(clean): 0.832124
+50000 samples LogisticRegression, time taken 215.55s
+valid score: 0.816900 , valid score(clean): 0.803158
+test score: 0.888700 , test score(clean): 0.877835
