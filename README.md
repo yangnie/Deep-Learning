@@ -19,7 +19,9 @@ Repository for Deep Learning class in Udacity
 
 5. Open a browser using URL: _http://localhost:8888_
 6. Reference:
+
     http://cs231n.github.io/linear-classify/
+    
     https://classroom.udacity.com/courses/ud120
     
 
