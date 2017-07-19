@@ -11,11 +11,11 @@ Repository for Deep Learning class in Udacity
 3. Open a Window terminal
 4. Run Docker image in Window terminal: 
     
-        _docker run -p 8888:8888 --name tensorflow-udacity -it gcr.io/tensorflow/udacity-assignments:1.0.0_ 
+        docker run -p 8888:8888 --name tensorflow-udacity -it gcr.io/tensorflow/udacity-assignments:1.0.0_ 
 
         if you ever exit the container, you can return to it using:
         
-        _docker start -ai tensorflow-udacity
+        docker start -ai tensorflow-udacity
 
 ![Start Docker][image1]
 
